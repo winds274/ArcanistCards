@@ -1,0 +1,50 @@
+body {
+  text-align: center;
+  background-image: url("./Backdrop.jpg");
+  color: white;
+}
+
+h1 {
+  font-size: 80px;
+  margin: 10px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.137);
+  margin: 20px;
+  height: 231px;
+  width: 163px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card h3 {
+  font-size: 1.5em;
+  text-decoration: underline;
+  margin: 0;
+}
+
+.cardImg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  -webkit-user-drag: none;
+}
+
+.hidden {
+  opacity: 0;
+}
